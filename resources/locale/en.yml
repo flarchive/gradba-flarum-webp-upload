@@ -1,0 +1,18 @@
+gradba-webp-upload:
+  admin:
+    settings:
+      enabled: Convert uploads to WebP
+      enabled-Help: >-
+        When on, uploaded JPEG/PNG/BMP/TIFF images are re-encoded as WebP before
+        being stored. Animated GIFs and SVGs are never touched. If the WebP copy
+        would be larger than the original, the original is kept.
+      quality: WebP quality (1-100)
+      quality-Help: >-
+        82 is a good balance for photos — visually near-lossless at roughly a
+        third of the size. Lower saves more space; above 90 gives diminishing
+        returns.
+      maxSize: Maximum width/height (pixels)
+      maxSize-Help: >-
+        Images larger than this are scaled down (aspect ratio kept, never scaled
+        up) before conversion. Set 0 to disable resizing here and rely on FoF
+        Upload's own resize setting.

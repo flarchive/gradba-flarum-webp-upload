@@ -1,0 +1,39 @@
+{
+    "name": "gradba/flarum-webp-upload",
+    "description": "Automatically convert uploaded images to WebP (and cap their dimensions) before they are stored, via FoF Upload.",
+    "keywords": ["flarum", "upload", "webp", "images", "optimization"],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gradba.mk",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.8",
+        "fof/upload": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gradba\\WebpUpload\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "WebP Upload",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-file-image",
+                "backgroundColor": "#0d9488",
+                "color": "#fff"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/gradba/flarum-webp-upload",
+        "issues": "https://github.com/gradba/flarum-webp-upload/issues"
+    }
+}
