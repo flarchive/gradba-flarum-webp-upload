@@ -2,13 +2,13 @@
 
 > **Read-only archive of released versions of gradba/flarum-webp-upload.** Not for installation: use [Packagist](https://packagist.org/packages/gradba/flarum-webp-upload) or the [upstream repository](https://github.com/gradba/flarum-webp-upload).
 
-**0** versions archived · Latest: [`v1.0.0`](https://github.com/flarchive/gradba-flarum-webp-upload/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^1.8`
+**1** versions archived · Latest: [`v1.0.0`](https://github.com/flarchive/gradba-flarum-webp-upload/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^1.8`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.0.0` | 2026-07-24 | `^1.8` | [Browse](https://github.com/flarchive/gradba-flarum-webp-upload/tree/archive/v1.0.0) |
 
 Catalog entry: [packages/gradba-flarum-webp-upload.json](https://github.com/flarchive/archive-index/blob/main/packages/gradba-flarum-webp-upload.json)
 
